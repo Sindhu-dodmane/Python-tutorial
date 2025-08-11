@@ -3,7 +3,7 @@ print('sindhu')
 name='sindhudodmane'
 print(name)
 print('python', 'is', 'fun')
-print('python', 'is', 'fun', sep='-')
+print('python', 'is', 'fun', sep='*')
 
 # by using string farmat
 name = "Sindhu"
