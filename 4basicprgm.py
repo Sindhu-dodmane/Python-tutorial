@@ -1,4 +1,4 @@
-#reverse of number, remember str slicing
+#reverse of number, remember sting slicing
 num=int(input('Enter a number: '))
 print(num)
 rev= str(num)[::-1]

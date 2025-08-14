@@ -7,7 +7,7 @@ print(name1)
 
 #accesing strings
 print(name[1])
-print(name[-1])
+print(name[-1]) #negative indexing
 
 #to retrive substring or some portion of string by string slicing
 print(name1[0:4])

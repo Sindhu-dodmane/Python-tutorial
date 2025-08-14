@@ -1,4 +1,4 @@
-'''for input we use-->input()
+'''for user input we use-->input()
 for output we use print()'''
 name=input('name : ')
 print(name)
@@ -19,4 +19,5 @@ print('sum=',int(x)+int(y))
 # for readability and documentation purpose
 # 1.single line commands--> #
 # 2.multiple line commands -->starts with ''' and endswith '''
+
 

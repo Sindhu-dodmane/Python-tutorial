@@ -3,6 +3,7 @@ b=int('0b100',base=0)
 print(a,b)
 
 my_tuples=('sindhu',2)
+# my_tuples=tuple(['sindu',2])
 print(my_tuples)
 # if u want to create single element in tuple
 my_tuple=(2,)
@@ -54,6 +55,21 @@ print(my_tuple+my_tuple)
 print(my_tuple*3)
 
 print(4 in my_tuple)
+
+#nested tuple
+t=(1,(2,3),4)
+print(t[1][0]) # 2
+
+#sum, max ,min and occurence 
+t=(1,2,3,4,5,3,2,3)
+print(sum(t))
+print(max(t))
+print(min(t))
+print(t.count(3))
+
+
+
+
 
 
 
