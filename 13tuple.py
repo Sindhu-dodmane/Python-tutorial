@@ -64,8 +64,15 @@ print(t[1][0]) # 2
 t=(1,2,3,4,5,3,2,3)
 print(sum(t))
 print(max(t))
+
 print(min(t))
 print(t.count(3))
+
+#tuple packing and unpacking
+t=10,20,30,40 # packing putting multiple value into single tuple
+print(type(t)) #<class :tuple>
+a,b,c,d=t  # unpacking assign variable to individual value in tuple
+print(a,b,c,d)
 
 
 

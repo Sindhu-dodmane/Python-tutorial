@@ -37,5 +37,6 @@ print(type(y))  #checking type of variable
 z=str(y)
 print(type(z))
 print(type(p))
-
+a=True+True+True
+print(a)
 
