@@ -21,4 +21,24 @@ fruit='banana'
 fruits=set(fruit)
 print(fruits)
 
+#intersection_update()
+A = {1, 2, 3, 4}
+B = {3, 4, 5}
+A.intersection_update(B)
+print(A)  # {3, 4}  <-- updated A itself
+print(B)  # {3, 4, 5} (unchanged)
+
+#shallow copy
+A = {1, 2, 3}
+B = A.copy()
+B.add(4)
+print(A)  # {1, 2, 3}
+print(B)  # {1, 2, 3, 4}
+
+#set to tuple
+s = {10, 20, 30}
+t = tuple(s)
+print(t)        # (10, 20, 30) or (20, 10, 30) (order not fixed)
+print(type(t))  # <class 'tuple'>
+
 
