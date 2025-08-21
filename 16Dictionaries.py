@@ -68,4 +68,23 @@ print(itemss)
 print('sindhu' in my_dict) #true
 print('sneha'not in my_dict) #true
 print('baanu' not in my_dict) #false
-   
+
+di={1:2,2:1,1:3}
+print(di)  # {1: 3, 2: 1} no duplicate key , latest value overwritten the old one
+print(di.popitem())  #remove last inserted key-value pair
+
+# covert two list into dictionary
+keys=['name','id','age']
+values=['sindhu',27,20]
+converted=dict(zip(keys,values))
+print(converted)
+
+#Dictionary Comprehension
+squares={x: x*x for x in range(5)}
+print(squares) #{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+s = "pythonprogramming"
+freq = {}
+for ch in s:
+    freq[ch] = freq.get(ch, 0) + 1
+print(freq)

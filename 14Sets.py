@@ -26,6 +26,15 @@ print(s1.intersection(s2)) #can also use
 print(s2-s1)
 
 #methods
+'''add()
+   remove()
+   pop()
+   discard()
+   issubset()
+   issuperset()
+   update()
+   isdisjoint()
+   symetric_difference()'''
 s1.add(4) #already in set does not make any difference
 s1.add(.4)  
 print(s1)   # {0.4, 1, 2, 4, 5, 6}
