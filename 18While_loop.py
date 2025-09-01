@@ -89,14 +89,17 @@ while i<n:
       print(a, end=' ')
       a,b=b,a+b
       i+=1'''
-num=574
-ams=0
+
+#armstrong number
+'''num=574
+arm=0
 while num>0:
       digit=num%10
       sqr=digit*digit
-      ams+=sqr
+      arm+=sqr
       num//=10
-print(ams)
+print(arm)'''
+
         
 
 

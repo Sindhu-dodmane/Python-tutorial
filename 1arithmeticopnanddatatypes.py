@@ -1,15 +1,15 @@
 #basic print function in python
-print('sindhu')
+print('sindhu')  #sindhu
 name='sindhudodmane'
-print(name)
-print('python', 'is', 'fun')
-print('python', 'is', 'fun', sep='*')
+print(name) #sindhudodmane
+print('python', 'is', 'fun') # python is fun
+print('python', 'is', 'fun', sep='*') #python*is*fun
 
 # by using string farmat
 name = "Sindhu"
 score = 95
-print("{} scored {} marks.".format(name, score))
-print(f"{name} scored {score} marks.")
+print("{} scored {} marks.".format(name, score)) #Sindhu scored 95 marks.
+print(f"{name} scored {score} marks.") #Sindhu scored 95 marks.
 
 # escape characters inside print fuction
 print("Hello\nWorld")   # New line
@@ -21,16 +21,16 @@ print(r'this is \n newline') #raw string to ignores newline
 #b=3
 #can also assign like this 
 a,b =10,3
-print(a+b)  #addition
-print(a-b)  #subtraction
-print(a*b)  #multiplication
-print(a/b)  #division
-print(a//b)  #floor division
-print(a%b)  #modulus
+print(a+b)  #addition , 13
+print(a-b)  #subtraction , 7
+print(a*b)  #multiplication, 30
+print(a/b)  #division, 3.3333333333335
+print(a//b)  #floor division, 3
+print(a%b)  #modulus ,1
 #datatypes and typecast
 name='sindhu'
 x=20
-p=None #spl datatype
+p=None #special datatype
 print(type(a))
 y=float(a)
 print(type(y))  #checking type of variable
@@ -38,5 +38,5 @@ z=str(y)
 print(type(z))
 print(type(p))
 a=True+True+True
-print(a)
+print(a) #3
 

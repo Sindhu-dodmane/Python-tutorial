@@ -1,3 +1,4 @@
+'''strings are sequence of charater/anything that is encloses within single/double quotes is called string'''
 name="sindhu said 'hello'"
 print(name)
 # we can also use triple quote to print multi line string

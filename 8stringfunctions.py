@@ -5,11 +5,11 @@ if name == name[::-1]:
 else:
     print('not palindrome')
 
-#count ovels in string
+#count vowels in string
 count=0
 s=input('enter string').lower()
 for ch in s:
-    if ch in 'aeiou': #must type ch only not index i
+    if ch in 'aeiou': 
         count+=1
 print(count) #remember indentation 
       
