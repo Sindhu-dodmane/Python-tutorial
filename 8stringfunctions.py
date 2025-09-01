@@ -17,4 +17,4 @@ print(count) #remember indentation
 s = "hello world"
 words = s.split()
 rev = [w[::-1] for w in words]
-print(" ".join(rev))  # ➝ 'olleh dlrow'
+print(" ".join(rev))  # ➝  'olleh dlrow'

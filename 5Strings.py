@@ -23,4 +23,4 @@ print(name[::-1])
 #escape characters
 print('this is string\n you know')
 print('this is string \tyou know')
-print('this is string \\you know') #to print backslash
+print('this is string \\you know') # to print backslash

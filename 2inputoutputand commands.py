@@ -18,6 +18,6 @@ print('sum=',int(x)+int(y))
 #Commads in python are line of strings used 
 # for readability and documentation purpose
 # 1.single line commands--> starts with #
-# 2.multiple line commands -->starts with ''' and endswith '''
+# 2.multiple line commands -->starts with '''  and endswith '''
 
 
