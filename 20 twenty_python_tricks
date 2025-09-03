@@ -1,0 +1,99 @@
+# 1. swaping of two numbers
+'''a=3
+b=5
+print(f'before swaping a={a} b={b}')
+a,b=b,a #trick
+print(f'after swapping a={a},b={b}')'''
+
+# 2. List to string
+'''my_list=['sindhu','dodmane']
+print(' '.join(my_list)) #trick '''
+
+# 3. check palindrome
+'''s='sinis'
+if s==s[::-1]: #trick
+    print('palindrome')
+else:
+    print('not palindrome')'''
+    
+# 4.find most frequent element
+'''lst=[4,5,8,4,7,4,6,2,4,1,4]
+print(max(set(lst), key=lst.count))  #trick'''
+
+#5.merge 2 dictionaries
+'''dict1={'a':1,'b':2,'c':3}
+dict2={'d':4,'e':5,'f':6}
+print({**dict1,**dict2}) #trick'''
+
+#6.Flatten a Nested list
+'''lst=[[1,2],[3,4],[5,6]]
+flat=[i for sub in lst for i in sub] #trick
+print(flat)'''
+
+# 7. find duplicate
+'''lst=[1,5,2,3,4,6,7,1,8]
+dups=set([x for x in lst if lst.count(x)>1])#trick
+print(dups)'''
+
+# 8.Sort dictionary by value
+d={'a':3,'b':1,'c':2}
+sorted_d=sorted(d.items(),key=lambda x:x[1]) #trick
+print(sorted_d)
+
+# 9. chunk a List
+'''lst=[1,2,3,4,5,6,7,8,9]
+n=3
+chunks=[lst[i:i+n] for i in range(0,len(lst),n)] #trick
+print(chunks)'''
+
+# 10. reverse a list
+'''lst=[1,2,3,4,5]
+rev= lst[::-1] #trick
+print(rev) '''
+
+# 11. check if all elements are same
+'''li=[4,4,4,4]
+print(all(x == li[0] for x in li)) #trick'''
+#12. intersection of lists
+'''l1=[1,2,33,4,56,6]
+l2=[2,31,5,7,8]
+print(set(l1)&set(l2))'''
+
+#13. Get Indexes for value in List
+'''lst = [1,2,3,2,4,2]
+indexes = [i for i, x in enumerate(lst) if x == 2]
+print(indexes)   # [1, 3, 5]'''
+
+#14. Lambda Function for Sorting
+lst = [(1,3), (2,2), (3,1)]
+sorted_lst = sorted(lst, key=lambda x: x[1])
+print(sorted_lst)   # [(3,1), (2,2), (1,3)]
+
+#15. Create a List of N Zeros
+n = 5
+zeros = [0] * n
+print(zeros)   # [0, 0, 0, 0, 0]
+
+#16. get ASCII of Character
+print(ord('A'))   # 65
+
+#17. Generate Random Password
+import random, string
+chars = string.ascii_letters + string.digits
+password = ''.join(random.choices(chars, k=8))
+print(password)   # Example: "a9GdX3pQ"
+
+#18.Convert String to Title Case
+s = "hello world"
+print(s.title())   # Hello World
+
+#19. Use get() for Safe Dictionary Access
+d = {'a': 1}
+print(d.get('a', 'default'))   # 1
+print(d.get('b', 'default'))   # default
+
+#20. Convert Bytes to String
+B= b'Hello'
+print(type(B))
+print(B.decode('utf-8'))   # Hello
+
